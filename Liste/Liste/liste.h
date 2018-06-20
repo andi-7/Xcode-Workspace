@@ -1,5 +1,5 @@
 //
-//  project1.h
+//  liste.h
 //  MiniProjekt1
 //
 //  Created by Andreas Starzer on 25.05.18.
@@ -20,14 +20,9 @@ typedef struct header{
 typedef struct elem{
     struct elem *next;
     struct elem *prev;
-    struct data *data;
+    int data;
 }ELEM;
 
-typedef struct data{
-    int dec;
-    char *zeichen;
-    char *beschreibung;
-}DATA;
 
 //----------Funktionen----------
 

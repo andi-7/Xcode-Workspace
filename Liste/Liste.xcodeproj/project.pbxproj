@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A99CDE5D20B802E7006A6E6B /* liste.c in Sources */ = {isa = PBXBuildFile; fileRef = A99CDE5C20B802E7006A6E6B /* liste.c */; };
+		A9449A1B20D9A28A0065CA9D /* liste.c in Sources */ = {isa = PBXBuildFile; fileRef = A9449A1A20D9A28A0065CA9D /* liste.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A99CDE5720B802E7006A6E6B /* CopyFiles */ = {
+		A9449A1520D9A28A0065CA9D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A99CDE5920B802E7006A6E6B /* MiniProjekt1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniProjekt1; sourceTree = BUILT_PRODUCTS_DIR; };
-		A99CDE5C20B802E7006A6E6B /* liste.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = liste.c; sourceTree = "<group>"; };
-		A99CDE6320B80312006A6E6B /* liste.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liste.h; sourceTree = "<group>"; };
+		A9449A1720D9A28A0065CA9D /* Liste */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Liste; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9449A1A20D9A28A0065CA9D /* liste.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = liste.c; sourceTree = "<group>"; };
+		A9449A2120D9A2C60065CA9D /* liste.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liste.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A99CDE5620B802E7006A6E6B /* Frameworks */ = {
+		A9449A1420D9A28A0065CA9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,27 +39,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A99CDE5020B802E7006A6E6B = {
+		A9449A0E20D9A28A0065CA9D = {
 			isa = PBXGroup;
 			children = (
-				A99CDE5B20B802E7006A6E6B /* Liste */,
-				A99CDE5A20B802E7006A6E6B /* Products */,
+				A9449A1920D9A28A0065CA9D /* Liste */,
+				A9449A1820D9A28A0065CA9D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A99CDE5A20B802E7006A6E6B /* Products */ = {
+		A9449A1820D9A28A0065CA9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A99CDE5920B802E7006A6E6B /* MiniProjekt1 */,
+				A9449A1720D9A28A0065CA9D /* Liste */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A99CDE5B20B802E7006A6E6B /* Liste */ = {
+		A9449A1920D9A28A0065CA9D /* Liste */ = {
 			isa = PBXGroup;
 			children = (
-				A99CDE5C20B802E7006A6E6B /* liste.c */,
-				A99CDE6320B80312006A6E6B /* liste.h */,
+				A9449A1A20D9A28A0065CA9D /* liste.c */,
+				A9449A2120D9A2C60065CA9D /* liste.h */,
 			);
 			path = Liste;
 			sourceTree = "<group>";
@@ -67,67 +67,67 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A99CDE5820B802E7006A6E6B /* MiniProjekt1 */ = {
+		A9449A1620D9A28A0065CA9D /* Liste */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A99CDE6020B802E7006A6E6B /* Build configuration list for PBXNativeTarget "MiniProjekt1" */;
+			buildConfigurationList = A9449A1E20D9A28A0065CA9D /* Build configuration list for PBXNativeTarget "Liste" */;
 			buildPhases = (
-				A99CDE5520B802E7006A6E6B /* Sources */,
-				A99CDE5620B802E7006A6E6B /* Frameworks */,
-				A99CDE5720B802E7006A6E6B /* CopyFiles */,
+				A9449A1320D9A28A0065CA9D /* Sources */,
+				A9449A1420D9A28A0065CA9D /* Frameworks */,
+				A9449A1520D9A28A0065CA9D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MiniProjekt1;
-			productName = MiniProjekt1;
-			productReference = A99CDE5920B802E7006A6E6B /* MiniProjekt1 */;
+			name = Liste;
+			productName = Liste;
+			productReference = A9449A1720D9A28A0065CA9D /* Liste */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A99CDE5120B802E7006A6E6B /* Project object */ = {
+		A9449A0F20D9A28A0065CA9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Andreas Starzer";
 				TargetAttributes = {
-					A99CDE5820B802E7006A6E6B = {
-						CreatedOnToolsVersion = 9.3.1;
+					A9449A1620D9A28A0065CA9D = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = A99CDE5420B802E7006A6E6B /* Build configuration list for PBXProject "MiniProjekt1" */;
+			buildConfigurationList = A9449A1220D9A28A0065CA9D /* Build configuration list for PBXProject "Liste" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A99CDE5020B802E7006A6E6B;
-			productRefGroup = A99CDE5A20B802E7006A6E6B /* Products */;
+			mainGroup = A9449A0E20D9A28A0065CA9D;
+			productRefGroup = A9449A1820D9A28A0065CA9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A99CDE5820B802E7006A6E6B /* MiniProjekt1 */,
+				A9449A1620D9A28A0065CA9D /* Liste */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A99CDE5520B802E7006A6E6B /* Sources */ = {
+		A9449A1320D9A28A0065CA9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99CDE5D20B802E7006A6E6B /* liste.c in Sources */,
+				A9449A1B20D9A28A0065CA9D /* liste.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A99CDE5E20B802E7006A6E6B /* Debug */ = {
+		A9449A1C20D9A28A0065CA9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		A99CDE5F20B802E7006A6E6B /* Release */ = {
+		A9449A1D20D9A28A0065CA9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		A99CDE6120B802E7006A6E6B /* Debug */ = {
+		A9449A1F20D9A28A0065CA9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -244,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		A99CDE6220B802E7006A6E6B /* Release */ = {
+		A9449A2020D9A28A0065CA9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A99CDE5420B802E7006A6E6B /* Build configuration list for PBXProject "MiniProjekt1" */ = {
+		A9449A1220D9A28A0065CA9D /* Build configuration list for PBXProject "Liste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A99CDE5E20B802E7006A6E6B /* Debug */,
-				A99CDE5F20B802E7006A6E6B /* Release */,
+				A9449A1C20D9A28A0065CA9D /* Debug */,
+				A9449A1D20D9A28A0065CA9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A99CDE6020B802E7006A6E6B /* Build configuration list for PBXNativeTarget "MiniProjekt1" */ = {
+		A9449A1E20D9A28A0065CA9D /* Build configuration list for PBXNativeTarget "Liste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A99CDE6120B802E7006A6E6B /* Debug */,
-				A99CDE6220B802E7006A6E6B /* Release */,
+				A9449A1F20D9A28A0065CA9D /* Debug */,
+				A9449A2020D9A28A0065CA9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A99CDE5120B802E7006A6E6B /* Project object */;
+	rootObject = A9449A0F20D9A28A0065CA9D /* Project object */;
 }
