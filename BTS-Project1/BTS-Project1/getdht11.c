@@ -79,8 +79,9 @@ int main(int argc, const char * argv[]) {
         }
     }
     
-    char *ip = "192.168.43.106";
-    int port = 12345;
+    char *ip = "192.168.43.106"; //IP adress from server
+    int port = 12345;            //Port from server
+    
     int eingabe=0;
     char *daten=malloc(15*sizeof(char));
     int socket1 = createSocketandConnect(port, ip);
