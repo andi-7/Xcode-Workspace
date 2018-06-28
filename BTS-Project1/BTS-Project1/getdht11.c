@@ -70,9 +70,11 @@ void convertAndPrint(char *data){
 int main(int argc, const char * argv[]) {
     if(argc==2) {
         if (strcmp(argv[1], "-h")==0) {
+            printf("\n");
             printf("Help: \n");
             printf("Bitte 1 eingeben und Enter drücken zum Empfangen\n");
             printf("Bitte 2 eingeben und Enter drücken zum Beenden\n");
+            printf("\n");
             return 0;
         }
     }
