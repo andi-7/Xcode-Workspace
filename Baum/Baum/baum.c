@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include "baum.h"
 
+
 //--------------------Functions--------------------
 
 NODE *addNode(NODE *tree, int data){
@@ -72,6 +73,18 @@ int TreeSum(NODE *tree){
     return sum;
 }
 
+void searchNode(NODE *tree, int key){
+    if(tree==NULL) return;
+    
+    if(tree->data==key) {
+        printf("Knoten gefunden!\n");
+    } else {
+        searchNode(tree->left, key);
+        searchNode(tree->right, key);
+    }
+   
+}
+
 
 
 //--------------------Main--------------------
@@ -98,6 +111,8 @@ int main(int argc, const char * argv[]) {
     
     printf("Anzahl der Knoten: %d\n", NodeCount(tree1));
     printf("Summe: %d\n",TreeSum(tree1));
+   
+    searchNode(tree1, 4);
     
     return 0;
 }
